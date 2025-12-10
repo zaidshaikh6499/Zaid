@@ -1,0 +1,97 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Experiment 10</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            background-color: #222;
+            height: 50px;
+            color: white;
+            align-items: center;
+            padding: 15px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .left {
+            margin-left: 15px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .actions {
+            display: flex;
+            gap: 30px;
+            font-weight: bold;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .actions {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .nav-links a {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            .nav-links a {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left">ShopEase</div>
+        <div class="nav-links">
+            <div><a href="#">Home</a></div>
+            <div><a href="#">Products</a></div>
+            <div><a href="#">Categories</a></div>
+            <div><a href="#">Deals</a></div>
+            <div><a href="#">Contacts</a></div>
+        </div>
+        <div class="actions">
+            <div><a href="#">Cart 🛒</a></div>
+            <div><a href="#">Login</a></div>
+        </div>
+    </div>
+    <div><span style="font-weight: bold;font-size: 25px;">Welcome to ShopEase!</span><br>
+        Your one-stop destination for all shopping needs.
+    </div>
+    <hr>
+    <h3><center>Mohd Zaid<br>2025B01010910</center></h3>
+</body>
+
+</html>
